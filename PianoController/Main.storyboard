@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8rJ-Kc-sve">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8rJ-Kc-sve">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,56 +21,56 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRz-SE-BcD">
                                 <rect key="frame" x="0.0" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="L"/>
+                                <state key="normal" backgroundImage="CLabeled"/>
                                 <connections>
                                     <action selector="sendC0:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Bdn-V0-gM5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wM6-uz-Pz0">
                                 <rect key="frame" x="75" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="T"/>
+                                <state key="normal" backgroundImage="DLabeled"/>
                                 <connections>
                                     <action selector="sendD:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="qTa-Sy-4xh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zds-Ny-ASv">
                                 <rect key="frame" x="150" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="R"/>
+                                <state key="normal" backgroundImage="ELabeled"/>
                                 <connections>
                                     <action selector="sendE:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="pcH-cS-ST2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUI-tb-bdg">
                                 <rect key="frame" x="225" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="L"/>
+                                <state key="normal" backgroundImage="FLabeled"/>
                                 <connections>
                                     <action selector="sendF:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="VOO-08-OFo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiV-xJ-sFg">
                                 <rect key="frame" x="300" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="T"/>
+                                <state key="normal" backgroundImage="GLabeled"/>
                                 <connections>
                                     <action selector="sendG:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Rj0-vW-H6J"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpD-lN-FPH">
                                 <rect key="frame" x="375" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="T"/>
+                                <state key="normal" backgroundImage="ALabeled"/>
                                 <connections>
                                     <action selector="sendA:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="JGH-YU-FYU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNv-t8-7iz">
                                 <rect key="frame" x="525" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="L"/>
+                                <state key="normal" backgroundImage="CLabeled"/>
                                 <connections>
                                     <action selector="sendC1:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="piD-m8-vcs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-3e-BxC">
                                 <rect key="frame" x="450" y="0.0" width="75" height="600"/>
-                                <state key="normal" backgroundImage="R"/>
+                                <state key="normal" backgroundImage="BLabeled"/>
                                 <connections>
                                     <action selector="sendB:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="tyJ-dx-Z1c"/>
                                 </connections>
@@ -137,8 +137,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="L" width="55" height="208"/>
-        <image name="R" width="55" height="208"/>
-        <image name="T" width="55" height="208"/>
+        <image name="ALabeled" width="55" height="208"/>
+        <image name="BLabeled" width="55" height="208"/>
+        <image name="CLabeled" width="55" height="208"/>
+        <image name="DLabeled" width="55" height="208"/>
+        <image name="ELabeled" width="55" height="208"/>
+        <image name="FLabeled" width="55" height="208"/>
+        <image name="GLabeled" width="55" height="208"/>
     </resources>
 </document>
